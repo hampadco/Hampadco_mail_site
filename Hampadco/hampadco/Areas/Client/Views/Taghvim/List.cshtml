@@ -1,0 +1,175 @@
+  <!-- All PLUGINS CSS ============================================= -->
+  <link rel="stylesheet" type="text/css" href="~/Client/assets/css/assets.css">
+  <link rel="stylesheet" type="text/css" href="~/Client/assets/vendors/calendar/fullcalendar.css">
+  <!-- TYPOGRAPHY =============================~/Client/================ -->
+  <link rel="stylesheet" type="text/css" href="~/Client/assets/css/typography.css">
+  <!-- SHORTCODES =============================~/Client/================ -->
+  <link rel="stylesheet" type="text/css" href="~/Client/assets/css/shortcodes/shortcodes.css">
+  <!-- STYLESHEETS ============================~/Client/================= -->
+  <link rel="stylesheet" type="text/css" href="~/Client/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="~/Client/assets/css/dashboard.css">
+  <link class="skin" rel="stylesheet" type="text/css" href="~/Client/assets/css/color/color-1.css">
+
+  <style type="text/css">
+    /* Chart.js */
+    @@-webkit-keyframes chartjs-render-animation {
+      from {
+        opacity: 0.99
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @@keyframes chartjs-render-animation {
+      from {
+        opacity: 0.99
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    .chartjs-render-monitor {
+      -webkit-animation: chartjs-render-animation 0.001s;
+      animation: chartjs-render-animation 0.001s;
+    }
+
+    .fc-list-heading-alt {
+      display: none;
+    }
+    .fc-month-button.fc-button.fc-state-default.fc-corner-left ,.fc-agendaWeek-button.fc-button.fc-state-default,.fc-agendaDay-button.fc-button.fc-state-default{
+
+display: none;
+
+}
+.fc-listMonth-button.fc-button.fc-state-default.fc-corner-right {
+
+pointer-events: none;
+border-radius: 7px;
+
+}
+  </style>
+
+<!--Main container start -->
+<main class="ttr-wrapper">
+  <div class="container-fluid">
+    <div class="db-breadcrumb">
+      <h4 class="breadcrumb-title">تقویم لیستی</h4>
+      <ul class="db-breadcrumb-list">
+        <li><a href="#"><i class="fa fa-home"></i>خانه</a></li>
+        <li>تقویم لیستی</li>
+      </ul>
+    </div>
+    <div class="row">
+      <!-- Your Profile Views Chart -->
+      <div class="col-lg-12 m-b30">
+        <div class="widget-box">
+          <div class="wc-title">
+            <h4>تقویم لیستی</h4>
+          </div>
+          <div class="widget-inner">
+            <div id="calendar" class="fc fc-unthemed fc-rtl">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Your Profile Views Chart END-->
+    </div>
+  </div>
+</main>
+
+<script src="~/Client/assets/js/jquery.min.js"></script>
+<script src="~/Client/assets/vendors/bootstrap/js/popper.min.js"></script>
+<script src="~/Client/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+<script src="~/Client/assets/vendors/scroll/scrollbar.min.js"></script>
+<script src="~/Client/assets/vendors/chart/chart.min.js"></script>
+<script src="~/Client/assets/js/admin.js"></script>
+<script src="~/Client/assets/vendors/calendar/moment.min.js"></script>
+<script src="~/Client/assets/cal-per/moment-jalaali.js"></script>
+<script src="~/Client/assets/vendors/calendar/fullcalendar.js"></script>
+<script src="~/Client/assets/cal-per/locale-all.js"></script>
+
+<script>
+  $(document).ready(function () {
+    var initialLocaleCode = 'fa';
+    $('#calendar').fullCalendar({
+      header: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'month,agendaWeek,agendaDay,listMonth'
+      },
+      views: {
+        listDay: { buttonText: 'list day' },
+        listWeek: { buttonText: 'list week' }
+      },
+      defaultView: 'listWeek',
+      isJalaali: true,
+      defaultDate: '2019-09-12',
+      locale: initialLocaleCode,
+      buttonIcons: false, // show the prev/next text
+      weekNumbers: false,
+      navLinks: true, // can click day/week names to navigate views
+      editable: true,
+      eventLimit: true, // allow "more" link when too many events
+      events: [
+        {
+          title: 'تماس با صداقت',
+          start: '2019-09-01'
+        },
+        {
+          title: 'جلسه کاری با مانا',
+          start: '2019-09-07',
+          end: '2019-09-10'
+        },
+        {
+          id: 999,
+          title: 'فرستادن قرارداد',
+          start: '2019-09-09T16:00:00'
+        },
+        {
+          id: 999,
+          title: 'فرستادن قرارداد',
+          start: '2019-09-16T16:00:00'
+        },
+        {
+          title: 'جلسه درون گروهی 3',
+          start: '2019-09-11',
+          end: '2019-09-13'
+        },
+        {
+          title: 'جلسه با شرکت ',
+          start: '2019-09-12T10:30:00',
+          end: '2019-09-12T12:30:00'
+        },
+        {
+          title: 'ناهار',
+          start: '2019-09-12T12:00:00'
+        },
+        {
+          title: 'جلسه با شرکت ',
+          start: '2019-09-12T14:30:00'
+        },
+        {
+          title: 'استراحت',
+          start: '2019-09-12T17:30:00'
+        },
+        {
+          title: 'دمو پروژه برای کارفرما',
+          start: '2019-09-12T20:00:00'
+        },
+        {
+          title: 'تدارکات مهمانی بخش',
+          start: '2019-09-13T07:00:00'
+        },
+        {
+          title: 'جستجو SignalR',
+          url: 'http://google.com/',
+          start: '2019-09-28'
+        }
+      ]
+    });
+  });
+</script>

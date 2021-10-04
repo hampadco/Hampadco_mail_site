@@ -1,0 +1,12 @@
+f:\Projects\Hampadco\Hampadco\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+f:\Projects\Hampadco\Hampadco\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+f:\Projects\Hampadco\Hampadco\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+f:\Projects\Hampadco\Hampadco\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+f:\Projects\Hampadco\Hampadco\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+f:\Projects\Hampadco\Hampadco\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+f:\Projects\Hampadco\Hampadco\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+f:\Projects\Hampadco\Hampadco\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+f:\Projects\Hampadco\Hampadco\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+f:\Projects\Hampadco\Hampadco\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+f:\Projects\Hampadco\Hampadco\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
+f:\Projects\Hampadco\Hampadco\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache

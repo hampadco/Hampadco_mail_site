@@ -1,0 +1,12 @@
+f:\Projects\Hampadco\Hampadco\ViewModelLayer\bin\Debug\netcoreapp3.1\ViewModelLayer.deps.json
+f:\Projects\Hampadco\Hampadco\ViewModelLayer\bin\Debug\netcoreapp3.1\ViewModelLayer.dll
+f:\Projects\Hampadco\Hampadco\ViewModelLayer\bin\Debug\netcoreapp3.1\ViewModelLayer.pdb
+f:\Projects\Hampadco\Hampadco\ViewModelLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+f:\Projects\Hampadco\Hampadco\ViewModelLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+f:\Projects\Hampadco\Hampadco\ViewModelLayer\obj\Debug\netcoreapp3.1\ViewModelLayer.csprojAssemblyReference.cache
+f:\Projects\Hampadco\Hampadco\ViewModelLayer\obj\Debug\netcoreapp3.1\ViewModelLayer.AssemblyInfoInputs.cache
+f:\Projects\Hampadco\Hampadco\ViewModelLayer\obj\Debug\netcoreapp3.1\ViewModelLayer.AssemblyInfo.cs
+f:\Projects\Hampadco\Hampadco\ViewModelLayer\obj\Debug\netcoreapp3.1\ViewModelLayer.csproj.CoreCompileInputs.cache
+f:\Projects\Hampadco\Hampadco\ViewModelLayer\obj\Debug\netcoreapp3.1\ViewModelLayer.csproj.CopyComplete
+f:\Projects\Hampadco\Hampadco\ViewModelLayer\obj\Debug\netcoreapp3.1\ViewModelLayer.dll
+f:\Projects\Hampadco\Hampadco\ViewModelLayer\obj\Debug\netcoreapp3.1\ViewModelLayer.pdb
